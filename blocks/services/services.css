@@ -1,0 +1,19 @@
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.services-item {
+  padding: 20px;
+  border: 1px solid #eee;
+  border-left: 4px solid #0f766e;
+  border-radius: 8px;
+  background: #fafafa;
+}
+
+.services-item p:first-child {
+  font-weight: 700;
+  margin: 0 0 8px;
+  color: #111;
+}
