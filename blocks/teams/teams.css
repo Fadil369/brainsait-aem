@@ -1,0 +1,6 @@
+.teams-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(230px,1fr)); gap:18px; }
+.team-card { border:1px solid #e2e8f0; border-radius:16px; padding:16px; background:#fff; box-shadow:0 2px 8px rgba(0,0,0,.04); }
+.team-card h3 { margin:0 0 4px; color:#0a3d3b; }
+.team-lead { color:var(--gold,#c9a86a); font-weight:600; margin-bottom:10px; }
+.team-members { display:flex; flex-wrap:wrap; gap:6px; }
+.team-chip { background:#f0fdfa; color:#0a3d3b; border-radius:999px; padding:3px 10px; font-size:.8rem; }

@@ -1,0 +1,6 @@
+.wf-board { display:flex; gap:16px; overflow-x:auto; padding-bottom:10px; }
+.wf-column { min-width:210px; background:#f8fafc; border:1px solid #e2e8f0; border-radius:14px; padding:14px; }
+.wf-col-head { display:flex; justify-content:space-between; align-items:center; margin:0 0 12px; color:#0a3d3b; font-size:1rem; }
+.wf-count { background:var(--gold,#c9a86a); color:#fff; border-radius:999px; padding:2px 9px; font-size:.78rem; }
+.wf-items { display:flex; flex-direction:column; gap:8px; }
+.wf-item { background:#fff; border-radius:10px; padding:10px 12px; border:1px solid #e2e8f0; box-shadow:0 1px 2px rgba(0,0,0,.04); font-size:.9rem; }

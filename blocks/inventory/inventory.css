@@ -1,0 +1,8 @@
+.inv-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(200px,1fr)); gap:16px; }
+.inv-card { border:1px solid #e2e8f0; border-radius:14px; padding:14px; background:#fff; }
+.inv-card h3 { margin:0 0 2px; color:#0a3d3b; font-size:1rem; }
+.inv-cat { color:#64748b; font-size:.85rem; margin-bottom:10px; }
+.inv-meter { height:8px; background:#e2e8f0; border-radius:999px; overflow:hidden; }
+.inv-fill { display:block; height:100%; background:linear-gradient(90deg,#0a3d3b,var(--gold,#c9a86a)); border-radius:999px; }
+.inv-stock { font-size:.85rem; margin-top:8px; color:#0a3d3b; }
+.inv-stock.low { color:#b91c1c; font-weight:700; }

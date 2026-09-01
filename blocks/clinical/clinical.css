@@ -1,0 +1,6 @@
+.clin-wrap { display:grid; grid-template-columns:repeat(auto-fill,minmax(220px,1fr)); gap:16px; }
+.clin-card { border-radius:16px; padding:16px; background:linear-gradient(135deg,#0a3d3b,#14532d); color:#fff; box-shadow:0 6px 16px rgba(0,0,0,.12); }
+.clin-card h3 { margin:0; font-size:.85rem; opacity:.85; text-transform:uppercase; letter-spacing:.05em; }
+.clin-value { font-size:2rem; font-weight:800; margin:.3rem 0; }
+.clin-detail { font-size:.9rem; opacity:.9; }
+.clin-badge { display:inline-block; background:rgba(255,255,255,.15); border-radius:999px; padding:3px 10px; font-size:.75rem; }

@@ -1,0 +1,13 @@
+.oid-leaf { max-width:560px; border-radius:20px; overflow:hidden; border:1px solid rgba(201,168,106,.4);
+  background:linear-gradient(135deg,#0a3d3b,#123f4d); color:#f2ead9; box-shadow:0 14px 34px rgba(10,61,59,.3); }
+.oid-body { padding:24px; }
+.oid-label { font-size:.72rem; text-transform:uppercase; letter-spacing:.14em; color:var(--gold,#c9a86a); margin-bottom:14px; }
+.oid-trail { font-family:ui-monospace,monospace; font-size:.8rem; display:flex; flex-wrap:wrap; gap:4px; margin-bottom:18px; opacity:.85; }
+.oid-seg { background:rgba(255,255,255,.08); padding:2px 8px; border-radius:6px; }
+.oid-seg.leaf { background:var(--gold,#c9a86a); color:#0a3d3b; font-weight:700; }
+.oid-link { opacity:.5; }
+.oid-core { display:flex; align-items:center; gap:16px; border-top:1px solid rgba(201,168,106,.2); padding-top:16px; }
+.oid-leaf-emoji { font-size:2.6rem; }
+.oid-owner { margin:0; font-family:Georgia,serif; font-size:1.4rem; }
+.oid-code { display:block; color:var(--gold,#c9a86a); font-family:ui-monospace,monospace; margin-top:4px; }
+.oid-meta { margin-top:16px; font-size:.82rem; color:var(--gold,#c9a86a); border-top:1px solid rgba(201,168,106,.2); padding-top:10px; }

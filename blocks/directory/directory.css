@@ -1,0 +1,29 @@
+/* Premium Doctors Directory — luxury, gold + deep teal, RTL-aware */
+.dr-wrap { --gold:#c9a86a; --deep:#0a3d3b; --ink:#1a202c; --bg2:#fbf9f4; }
+.dr-header { margin-bottom:18px; }
+.dr-title { font-family:'Playfair Display', Georgia, serif; color:var(--deep); letter-spacing:.02em; }
+.dr-controls { display:grid; grid-template-columns:1fr 1fr auto; gap:12px; margin-bottom:22px; }
+.dr-search, .dr-spec { padding:12px 16px; border:1px solid rgba(10,61,59,.2); border-radius:12px; font-size:1rem; background:#fff; }
+.dr-clear { padding:0 18px; border:none; background:var(--gold); color:#fff; border-radius:12px; font-weight:600; cursor:pointer; }
+.dr-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(260px,1fr)); gap:20px; }
+.dr-card { background:var(--bg2); border:1px solid rgba(201,168,106,.3); border-radius:18px; padding:18px; box-shadow:0 6px 20px rgba(10,61,59,.06); transition:transform .18s ease, box-shadow .18s ease; }
+.dr-card:hover { transform:translateY(-4px); box-shadow:0 14px 30px rgba(10,61,59,.14); }
+.dr-card-head { display:flex; gap:12px; align-items:center; }
+.dr-avatar { width:52px; height:52px; border-radius:50%; display:grid; place-items:center; font-size:1.4rem; font-weight:700; color:#fff; background:linear-gradient(135deg,#0a3d3b,var(--gold)); font-family:Georgia,serif; }
+.dr-id h3 { margin:0; font-size:1.05rem; color:var(--ink); }
+.dr-ar { display:block; font-size:.85rem; color:var(--deep); font-weight:600; }
+.dr-spec-line { color:var(--deep); opacity:.75; margin:.1rem 0 .6rem; font-size:.9rem; }
+.dr-rating { color:var(--gold); letter-spacing:1px; }
+.dr-star { color:#d9cfc0; } .dr-star.on { color:var(--gold); }
+.dr-rating-num { color:var(--ink); font-weight:600; font-size:.9rem; margin-left:6px; }
+.dr-skills { display:flex; flex-wrap:wrap; gap:6px; margin:.8rem 0; }
+.dr-tag { background:#eef4f1; color:var(--deep); border-radius:999px; padding:3px 10px; font-size:.78rem; }
+.dr-card-foot { display:flex; justify-content:space-between; align-items:center; border-top:1px solid rgba(201,168,106,.25); padding-top:10px; }
+.dr-oid { font-size:.8rem; color:var(--gold); font-weight:600; }
+.dr-link { color:var(--deep); font-weight:700; text-decoration:none; }
+.dr-empty { grid-column:1/-1; text-align:center; color:var(--deep); opacity:.6; }
+
+/* RTL */
+[dir="rtl"] .dr-controls { direction:rtl; }
+[dir="rtl"] .dr-card-foot { flex-direction:row-reverse; }
+[dir="rtl"] .dr-search, [dir="rtl"] .dr-spec { text-align:right; }

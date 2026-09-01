@@ -345,3 +345,21 @@ main .section {
   margin: 0 auto;
   padding: 24px 20px;
 }
+
+/* ── Doctors Directory / Medical Platform: luxury design systems ─────────── */
+.medical-platform {
+  --gold:#c9a86a; --deep:#0a3d3b; --creme:#fbf9f4; --ink:#1a202c;
+}
+.lux-heading {
+  font-family:'Playfair Display', Georgia, 'Amiri', serif;
+  font-weight:700; letter-spacing:.01em; color:var(--deep,#0a3d3b);
+}
+/* Arabic serif calligraphy */
+[lang="ar"] .lux-heading, [dir="rtl"] .lux-heading {
+  font-family:'Amiri','Aref Ruqaa','Playfair Display',serif;
+  font-weight:700;
+}
+.section {
+  padding: 20px;
+}
+@media (max-width:600px){ .dr-controls{ grid-template-columns:1fr; } .wf-board{ flex-direction:column; } }
