@@ -1,0 +1,11 @@
+.hub-wrap { background:#fff; border-radius:16px; padding:18px; box-shadow:0 2px 10px rgba(0,0,0,.05); }
+.hub-role { display:flex; gap:8px; margin-bottom:14px; }
+.hub-role-btn { padding:9px 18px; border:1px solid #e2e8f0; border-radius:999px; background:#f8fafc; color:#0a3d3b; font-weight:600; cursor:pointer; }
+.hub-search { width:100%; padding:11px 14px; border:1px solid #e2e8f0; border-radius:10px; margin-bottom:14px; box-sizing:border-box; }
+.hub-list { display:flex; flex-direction:column; gap:8px; }
+.hub-person { display:flex; align-items:center; gap:12px; border:1px solid #e2e8f0; border-radius:12px; padding:10px 14px; }
+.hub-av { width:38px; height:38px; border-radius:50%; display:grid; place-items:center; background:linear-gradient(135deg,#0a3d3b,var(--gold,#c9a86a)); color:#fff; font-weight:700; }
+.hub-info h3 { margin:0; font-size:.95rem; color:#0a3d3b; }
+.hub-info p { margin:0; color:#64748b; font-size:.8rem; }
+.hub-req { margin-left:auto; background:var(--gold,#c9a86a); color:#fff; border:none; border-radius:8px; padding:8px 14px; font-weight:600; cursor:pointer; }
+.hub-req:disabled { opacity:.6; }

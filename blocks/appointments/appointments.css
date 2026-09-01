@@ -1,0 +1,8 @@
+.appt-wrap { background:#fff; border-radius:16px; padding:18px; box-shadow:0 2px 10px rgba(0,0,0,.05); }
+.appt-title { margin:0 0 14px; color:#0a3d3b; font-family:Georgia,serif; }
+.appt-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(120px,1fr)); gap:10px; }
+.appt-slot { display:flex; flex-direction:column; gap:2px; padding:12px; border:1px solid #e2e8f0; border-radius:12px; background:#f8fafc; cursor:pointer; text-align:center; }
+.appt-slot.booked { background:#f6f8fa; cursor:default; opacity:.6; }
+.appt-time { font-weight:700; color:#0a3d3b; }
+.appt-date { font-size:.78rem; color:#64748b; }
+.appt-type { font-size:.72rem; margin-top:4px; color:var(--gold,#c9a86a); font-weight:600; }
