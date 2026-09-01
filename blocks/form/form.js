@@ -5,7 +5,7 @@
    Renders email + message fields and submits JSON. */
 export default function decorate(block) {
   const cfg = Object.fromEntries([...block.attributes].map(a => [a.name, a.value]));
-  const endpoint = cfg['data-endpoint'] || '/api/ecosystem/lead';
+  const endpoint = cfg['data-endpoint'] || 'https://ecosystem-api.brainsait-fadil.workers.dev/api/ecosystem/lead';
   const intent = cfg['data-intent'] || 'contact';
 
   const form = document.createElement('form');
