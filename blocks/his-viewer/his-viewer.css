@@ -1,0 +1,17 @@
+.his-wrap{--gold:#c9a86a;--deep:#0a3d3b; --panel:#fbf9f4; background:#fff;border:1px solid rgba(201,168,106,.3);border-radius:18px;padding:18px;box-shadow:0 6px 20px rgba(10,61,59,.06)}
+.his-title{font-family:'Playfair Display',Georgia,serif;color:var(--deep);margin:0 0 4px}
+.his-sub{color:#64748b;margin:0 0 14px;font-size:.9rem}
+.his-controls{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:10px}
+.his-input{flex:1;min-width:240px;padding:11px 14px;border:1px solid rgba(10,61,59,.2);border-radius:12px;font-size:.95rem}
+.his-go{padding:11px 18px;background:var(--gold);color:#fff;border:0;border-radius:12px;font-weight:700;cursor:pointer}
+.his-go:hover{opacity:.9} .his-shot.ghost,.his-record.ghost{background:transparent;border:1px solid var(--gold);color:var(--gold);border-radius:12px;padding:11px 14px;cursor:pointer;font-weight:600}
+.his-vault{font-size:.82rem;color:#64748b;margin-bottom:10px}
+.his-stage{background:#f8fafc;border:1px solid #e2e8f0;border-radius:12px;overflow:hidden}
+.his-frame-wrap{position:relative;display:flex;flex-direction:column}
+.his-frame{width:100%;height:520px;border:0;background:#fff}
+.his-status{font-size:.72rem;color:#64748b;background:#0f172a;color:#8f8faf;padding:6px 10px;border-top:1px solid #334155;display:flex;gap:8px;align-items:center}
+.his-help{margin-top:10px;font-size:.82rem;color:#475569}
+.his-help summary{cursor:pointer;color:var(--deep);font-weight:600}
+.his-help ul{margin:6px 0 0 18px}
+[dir="rtl"] .his-controls{flex-direction:row-reverse}
+@media(max-width:760px){.his-frame{height:360px}}
