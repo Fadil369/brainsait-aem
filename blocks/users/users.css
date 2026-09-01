@@ -1,0 +1,5 @@
+.users-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px,1fr)); gap: 20px; }
+.user-card { display: flex; align-items: center; gap: 14px; padding: 16px; border:1px solid #e5e7eb; border-radius:14px; background:#fff; }
+.user-avatar img { width: 52px; height: 52px; border-radius: 50%; object-fit: cover; }
+.user-info h3 { margin:0 0 4px; } 
+.user-info { color:#475569; font-size:.95rem; }

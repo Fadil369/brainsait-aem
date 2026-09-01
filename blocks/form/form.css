@@ -1,0 +1,12 @@
+.eco-form { max-width: 460px; display:flex; flex-direction:column; gap:14px; }
+.eco-form label { display:flex; flex-direction:column; gap:6px; font-weight:600; font-size:.92rem; color:#334155; }
+.eco-form input, .eco-form textarea {
+  padding:10px 12px; border:1px solid #cbd5e1; border-radius:10px; font-family:inherit; font-size:1rem;
+}
+.eco-form input:focus, .eco-form textarea:focus { outline:none; border-color:#0f766e; box-shadow:0 0 0 3px rgba(15,118,110,.15); }
+.eco-form-submit {
+  align-self:flex-start; padding:11px 22px; border:none; border-radius:999px; background:#0f766e; color:#fff;
+  font-weight:700; cursor:pointer;
+}
+.eco-form-submit:hover { background:#115e59; }
+.eco-form-msg { font-size:.9rem; color:#0f766e; }
